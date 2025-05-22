@@ -1,0 +1,32 @@
+﻿namespace BinaryObjectNotation
+{
+    public enum TagId : byte
+    {
+        Byte,
+        ByteArray,
+        Int16,
+        Int16Array,
+        UInt16,
+        UInt16Array,
+        Int32,
+        Int32Array,
+        UInt32,
+        UInt32Array,
+        Int64,
+        Int64Array,
+        UInt64,
+        UInt64Array,
+        Single,
+        SingleArray,
+        Double,
+        DoubleArray,
+        Boolean,
+        BooleanArray,
+        Char,
+        CharArray,
+        String,
+        StringArray,
+        Compound,
+        CompoundArray
+    }
+}
